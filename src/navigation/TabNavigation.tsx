@@ -39,6 +39,7 @@ export default function TabNavigation() {
           name="Highlight"
           component={HighlightScreen}
           options={{
+            headerShown: false,
             tabBarIcon: HighlightIcon,
           }}
         />
